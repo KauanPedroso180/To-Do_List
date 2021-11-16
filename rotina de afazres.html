@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>To-Do List Dev In House </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="rotinacss.css">
+    <link rel="shortcut icon" href="rotina.png">
+ </head>
+<body>
+        <div class="wrapper">
+        <header><h1>To-Do List Dev In House</h1></header>
+        <main>
+            <form>
+                <label for="tarefas">Tarefas</label>
+              <div class="entradas">
+                   <input type="text" id="tarefas"class="input_padrao" placeholder="Digite uma tarefa..." maxlength="25">
+                   <button id="formulario" onclick="adicionarItemLista()">+</button>    
+             </div>
+              <ul class="todo-list" id="TODOLIST"></ul>
+            
+            </form>
+        </main>
+        <footer>
+            <p class="copy">&copy;CopyRigght<br>DeVinHouse</p>
+        </footer>
+        <script src="função.js" defer></script>
+ </body>
+</html>
